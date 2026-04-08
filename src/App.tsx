@@ -3,6 +3,9 @@ import { Link, Route, Routes } from "react-router-dom";
 import ListPage from "./pages/ListPage";
 import AddPage from "./pages/AddPage";
 import EditPage from "./pages/EditPage";
+import LitsProduct from "./pages/Product/LitsProduct";
+import AddProduct from "./pages/Product/AddProduct";
+import EditProduct from "./pages/Product/EditProduct";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
             </Link>
             <Link to="/list" className="hover:text-gray-200">
               Danh sách
+            </Link>
+                        <Link to="/productlist" className="hover:text-gray-200">
+              Sản phẩm
             </Link>
             <Link to="/add" className="hover:text-gray-200">
               Thêm mới
@@ -44,6 +50,9 @@ function App() {
   <Route path="/list" element={<ListPage/>}></Route>
   <Route path="/add" element={<AddPage/>}></Route>
   <Route path="/edit/:id" element={<EditPage/>}></Route>
+  <Route path="/productlist" element = {<LitsProduct/>}></Route>
+  <Route path="/productadd" element = {<AddProduct/>}></Route>
+  <Route path="/productedit/:id" element = {<EditProduct/>}></Route>
 </Routes>
       <Toaster />
     </>

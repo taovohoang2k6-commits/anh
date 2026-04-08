@@ -1,25 +1,29 @@
 {
   "books": [
     {
-      "title": "errfef",
-      "quantity": 24343254,
+      "title": "âf",
+      "quantity": 32132,
       "coverImage": "https://fastly.picsum.photos/id/685/200/300.jpg?hmac=0R7Bu0AY8CbakSrvbQHtFb_swiFQbJqQe7bKpbV6viA",
-      "genre": "tieu thuyet",
+      "genre": " Khoa học",
+      "id": 1
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "price": 25000000,
+      "category": "Phone",
+      "image": "https://product.hstatic.net/200000456405/product/52649_dien_thoai_thong_minh_apple_iphone_15_pro_xanh_4_8796820263cb4842b005a73523dc58dd.png&quot",
+      "description": "sản phẩm tốt"
+    },
+    {
+      "name": "grgrgr",
+      "price": 42535,
+      "category": "Samsung",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=jpeg&qlt=90&.v=1692828773226",
+      "description": "gẻgre",
       "id": 2
-    },
-    {
-      "title": "grwgrg",
-      "quantity": 1424,
-      "coverImage": "https://fastly.picsum.photos/id/685/200/300.jpg?hmac=0R7Bu0AY8CbakSrvbQHtFb_swiFQbJqQe7bKpbV6viA",
-      "genre": " Khoa học",
-      "id": 3
-    },
-    {
-      "title": "gdfgfg",
-      "quantity": 423,
-      "coverImage": "https://fastly.picsum.photos/id/685/200/300.jpg?hmac=0R7Bu0AY8CbakSrvbQHtFb_swiFQbJqQe7bKpbV6viA",
-      "genre": " Khoa học",
-      "id": 4
     }
   ],
   "users": []
